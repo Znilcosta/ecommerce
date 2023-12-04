@@ -11,8 +11,8 @@ hr {
 /*====================================CLASSES========================*/
 
 .menu {
-    background-color: #F2FFE9;
-
+    background-color: #F3F3F3;
+    
     display: flex;
     justify-content: space-between;
     padding: 0 1.5rem 0.8rem;
@@ -32,6 +32,7 @@ hr {
 .banner span:nth-child(1) {
     position: absolute;
     align-self: center;
+    padding: 0 1.5rem;
 }
 
 .banner span h1:last-of-type {
