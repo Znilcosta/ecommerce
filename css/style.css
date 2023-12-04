@@ -27,6 +27,11 @@ hr {
     align-items: center;
 }
 
+.menu ul li {
+    padding: 0 1rem;
+    font-weight: bold;
+}
+
 .banner {
     display: flex;
 }
