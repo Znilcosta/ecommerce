@@ -32,6 +32,16 @@ hr {
     font-weight: bold;
 }
 
+.menu ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu ul li a:hover {
+    text-decoration: underline;
+    color: #2D9596;
+}
+
 .banner {
     display: flex;
 }
