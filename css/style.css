@@ -10,6 +10,11 @@ hr {
    border: none;
 }
 
+h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
 /*====================================CLASSES========================*/
 
 .menu {
@@ -44,15 +49,16 @@ hr {
 
 .banner {
     display: flex;
+    justify-content: space-between;
 }
 
-.banner span:nth-child(1) {
+.banner div:nth-child(1) {
     position: absolute;
     align-self: center;
     padding: 0 1.5rem;
 }
 
-.banner span h1:last-of-type {
+.banner div h1:last-of-type {
     color: #2D9596;
 }
 
@@ -64,7 +70,24 @@ hr {
     width: 100%;
 }
 
-.banner button {
-    border: none;
+.banner a {
+    text-decoration: none;
+    font-weight: bold;
     color: #2D9596;
+}
+
+.button-shop {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+.button-shop a {
+    position: absolute;
+    align-self: center;
+    padding-top: 1.2rem;
+}
+
+.button-shop img {
+    justify-content: space-around;
 }
